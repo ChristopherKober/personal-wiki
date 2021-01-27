@@ -32,44 +32,26 @@ jobs:
         FOLDER: out
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-assets:
-  needs: deploy
-  runs-on: ubuntu-latest
-  steps:
-    - name: checkout
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-        ref: gh-pages
+  assets:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: gh-pages
 
-    - name: setup git config
-      run: |
-        # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
-        git config user.name "GitHub Actions Bot"
-        git config user.email "<>"
+      - name: setup git config
+        run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
 
-    - name: commit
-      run: |
-        # Stage the file, commit and push
-        git checkout master -- assets/
-        git add assets/.
-        git commit -m "Update assets"
-        git push origin gh-pages
-
-
-
-
-
-
-    - name: checkout
-      uses: actions/checkout@v2-beta
-    - name: setup git config
-      run: |
-        # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
-        git config user.name "GitHub Actions Bot"
-        git config user.email "<>"
-        git checkout gh-pages
-        git checkout master -- assets/
-        git add assets/.
-        git commit -m "Update assets"
-        git push origin gh-pages
+      - name: commit
+        run: |
+          # Stage the file, commit and push
+          git checkout master -- assets/
+          git add assets/.
+          git commit -m "Update assets"
+          git push origin gh-pages
