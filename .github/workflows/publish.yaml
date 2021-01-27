@@ -32,17 +32,15 @@ jobs:
         FOLDER: out
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: checkout ghpages branch
+    - name: checkout
+      uses: actions/checkout@v2-beta
+    - name: setup git config
       run: |
         # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+        git config user.name "GitHub Actions Bot"
+        git config user.email "<>"
         git checkout gh-pages
-    - name: pull in latest assets
-      run: |
-        # Stage the file, commit and push
         git checkout master -- assets/
-    - name: commit changes
-      run: |
-        # Commit the files to the branch
         git add assets/.
         git commit -m "Update assets"
         git push origin gh-pages
