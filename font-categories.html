@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="https://www.kmaasrud.com/main.css">
   <link rel="stylesheet" type="text/css" href="https://www.kmaasrud.com/brain/main.css">
 
-  <title>{title}</title>
+  <title>Font Categories</title>
   <link rel="icon" href="https://raw.githubusercontent.com/kmaasrud/brain/master/favicon.svg" type="image/svg+xml">
   <link rel="alternate icon" href="https://raw.githubusercontent.com/kmaasrud/brain/master/favicon.ico" type="image/x-icon">
 </head>
@@ -34,9 +34,43 @@
       </div>
     </nav>
     <article>
-      <header>{title}</header>
-      {content}
-      {backlinks}
+      <header>Font Categories</header>
+      <div id="content"><h2 id="high-end-fonts">High End Fonts</h2>
+
+<p>Big Caslon Medium<br />
+Azo Sans Black<br />
+Bodoni 72</p>
+
+<h2 id="approachable">Approachable</h2>
+
+<p>Avance Pro<br />
+Archer Pro<br />
+Source Serif Variable</p>
+
+<h2 id="dark-and-moody">Dark and Moody</h2>
+
+<p>Antique Olive Nord D<br />
+Burueau got compressed<br />
+Cubano</p>
+
+<h2 id="modern-and-trendy">Modern and Trendy</h2>
+
+<p>Abril Fatface<br />
+Mokoko Bold<br />
+Atrament</p>
+
+<h2 id="youthful-and-playful">Youthful and Playful</h2>
+
+<p>Domus Titling Extrabold<br />
+Zenon Black<br />
+Coquette</p>
+
+<h2 id="illustrative-and-creative">Illustrative and Creative</h2>
+
+<p>Artifact<br />
+Vicktor Script Regular</p>
+</div>
+      
     </article>
   </div>
   
@@ -56,16 +90,16 @@
 
   <!-- Parsing single dollar signs -->
   <script>
-    document.addEventListener("DOMContentLoaded", function () {{
-        renderMathInElement(document.body, {{
+    document.addEventListener("DOMContentLoaded", function () {
+        renderMathInElement(document.body, {
           delimiters: [
-            {{left: "$$", right: "$$", display: true}},
-          {{left: "\\[", right: "\\]", display: true}},
-      {{left: "$", right: "$", display: false}},
-      {{left: "\\(", right: "\\)", display: false}}
+            {left: "$$", right: "$$", display: true},
+          {left: "\\[", right: "\\]", display: true},
+      {left: "$", right: "$", display: false},
+      {left: "\\(", right: "\\)", display: false}
         ]
-    }});
-    }});
+    });
+    });
   </script>
   
   <!-- Syntax highlighting through highlight.js -->
@@ -74,7 +108,7 @@
 
   <script>
     // Ignore highlighting of mermaid
-    hljs.configure({{noHighlightRe: /^mermaid$/}});
+    hljs.configure({noHighlightRe: /^mermaid$/});
     hljs.initHighlightingOnLoad();
   </script>
 </body>
