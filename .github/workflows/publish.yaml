@@ -31,3 +31,16 @@ jobs:
         BRANCH: gh-pages
         FOLDER: out
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Pushes to another repository
+        id: push_directory
+        uses: ChristopherKober/personal-wiki@master
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'Vault/Assets'
+          destination-github-username: 'ChristopherKober'
+          destination-repository-name: 'personal-wiki'
+          user-email: ChristopherKober@users.noreply.github.com
+          commit-message: See ORIGIN_COMMIT
+          target-branch: gh-pages
