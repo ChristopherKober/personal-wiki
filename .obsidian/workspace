@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Design/Typography/Font Categories.md",
+            "file": "Vault/Design/Typography/Font Categories.md",
             "mode": "preview"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design/Typography/Font Categories.md",
+                "file": "Vault/Design/Typography/Font Categories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
