@@ -32,24 +32,17 @@ jobs:
         FOLDER: out
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  build:
-    runs-on: ubuntu-latest
-    container: pandoc/latex
-    steps:
-      - uses: actions/checkout@v2
-      - name: Install mustache (to update the date)
-        run:  apk add ruby && gem install mustache
-      - name: Pushes to another repository
-        id: push_directory
-        uses: cpina/github-action-push-to-another-repository@master
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-          source-directory: 'Vault/Assets'
-          destination-github-username: 'ChristopherKober'
-          destination-repository-name: 'personal-wiki'
-          target-branch: gh-pages
-          user-email: ChristopherKober@users.noreply.github.com
-          commit-message: See ORIGIN_COMMIT
-      - name: Test get variable exported by push-to-another-repository
-        run: echo $DESTINATION_CLONED_DIRECTORY
+    - name: checkout ghpages branch
+      run: |
+        # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+        git checkout gh-pages
+    - name: pull in latest assets
+      run: |
+        # Stage the file, commit and push
+        git checkout master -- assets/
+    - name: commit changes
+      run: |
+        # Commit the files to the branch
+        git add assets/.
+        git commit -m "Update assets"
+        git push origin gh-pages
