@@ -11,7 +11,7 @@
           "type": "markdown",
           "state": {
             "file": "Vault/index.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -86,8 +86,9 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Vault/Untitled.md",
+    "Vault/index.md",
     "Vault/Design/Typography/Font Categories.md",
+    "Vault/Untitled.md",
     "Design/Typography/Font Categories.md",
     "Design/Typography/Untitled.md"
   ]

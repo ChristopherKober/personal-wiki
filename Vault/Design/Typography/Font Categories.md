@@ -27,3 +27,5 @@ Coquette
 ## Illustrative and Creative
 Artifact
 Vicktor Script Regular
+
+[![Foo](../../Assets/Font-Styles-Guide-PDF.pdf)](../../Assets/Font-Styles-Guide-PDF.pdf)
