@@ -32,14 +32,26 @@ jobs:
         FOLDER: out
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Pushes to another repository
-      uses: ChristopherKober/personal-wiki@master
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-      with:
-        source-directory: 'Vault/Assets'
-        destination-github-username: 'ChristopherKober'
-        destination-repository-name: 'personal-wiki'
-        user-email: ChristopherKober@users.noreply.github.com
-        commit-message: See ORIGIN_COMMIT
-        target-branch: gh-pages
+  build:
+    runs-on: ubuntu-latest
+    container: pandoc/latex
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install mustache (to update the date)
+        run:  apk add ruby && gem install mustache
+      - name: creates output
+        run:  sh ./build.sh
+      - name: Pushes to another repository
+        id: push_directory
+        uses: ChristopherKober/personal-wiki@master
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'Vault/Assets'
+          destination-github-username: 'ChristopherKober'
+          destination-repository-name: 'personal-wiki'
+          target-branch: gh-pages
+          user-email: ChristopherKober@users.noreply.github.com
+          commit-message: See ORIGIN_COMMIT
+      - name: Test get variable exported by push-to-another-repository
+        run: echo $DESTINATION_CLONED_DIRECTORY
