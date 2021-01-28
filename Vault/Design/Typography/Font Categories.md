@@ -28,4 +28,4 @@ Coquette
 Artifact
 Vicktor Script Regular
 
-[![Foo](https://christopherkober.github.io/personal-wiki/assets/Font-Styles-Guide-PDF.pdf)](https://christopherkober.github.io/personal-wiki/assets/Font-Styles-Guide-PDF.pdf)
+[![Foo](https://christopherkober.github.io/personal-wiki/assets/Font-Styles-Guide.png)](https://christopherkober.github.io/personal-wiki/assets/Font-Styles-Guide.png)
