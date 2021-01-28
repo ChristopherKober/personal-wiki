@@ -1,3 +1,4 @@
+# Font Categories
 ## High End Fonts
 
 Big Caslon Medium
@@ -28,4 +29,4 @@ Coquette
 Artifact
 Vicktor Script Regular
 
-[![Foo](https://christopherkober.github.io/personal-wiki/assets/Font-Styles-Guide.png)](https://christopherkober.github.io/personal-wiki/assets/Font-Styles-Guide.png)
+[![Foo](https://wiki.chriskober.com/assets/Font-Styles-Guide.png)](https://wiki.chriskober.com/assets/Font-Styles-Guide.png)

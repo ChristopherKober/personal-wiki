@@ -52,6 +52,8 @@ jobs:
           # Stage the file, commit and push
           git checkout gh-pages
           git checkout master -- assets/
+          git checkout master -- CNAME
           git add assets/.
+          git add CNAME
           git commit -m "Update assets"
           git push origin gh-pages
