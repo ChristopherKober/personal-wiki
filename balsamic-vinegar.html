@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- IBM Plex Mono -->
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet"> 
+  <!-- IBM Plex Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
+
+  <!-- CSS (uses absolute weblinks to work around relative path issues) -->
+  <link rel="stylesheet" type="text/css" href="https://wiki.chriskober.com/assets/main.css">
+  <title>Balsamic Vinegar</title>
+  <link rel="icon" href="https://www.chriskober.com/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="grid">
+    <nav>
+      <ul>
+        <a href="https://www.chriskober.com"><img id="logo" src="https://www.chriskober.com/favicon.ico"></img></a>
+        <br>
+        <li><a href="https://www.chriskober.com/projects">Projects</a></li>
+        <li><a href="https://github.com/ChristopherKober">GitHub</a></li>
+        <br>
+      </ul>
+      <ul>
+        <li><a href="https://wiki.chriskober.com/lists-of-cuisines">Cooking</a>
+          <ul>
+            <li><a href="https://wiki.chriskober.com/ingredients">Ingredients</a></li>
+            <li><a href="https://wiki.chriskober.com/italian-basics">Italian</a></li>
+          </ul>
+        </li>
+        <li>Design
+          <ul>
+            <li>Typography
+              <ul>
+                <li><a href="https://wiki.chriskober.com/font-categories">Font Categories</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="footer">
+        <p>Enjoy!</p>
+      </div>
+    </nav>
+    <article>
+      <div id="content"><h1 id="balsamic-vinegar">Balsamic Vinegar</h1>
+
+<h2 id="aceto-balsamico">Aceto Balsamico</h2>
+
+<p>Balsamic vinegar, a centuries-old specialty produced in the province of Modena, just north of Bologna, is made entirely from the boiled- down must—the concentrated, sweet juice—of white grapes. True balsamic vinegar is aged for decades in a succession of barrels, each made of a different wood.</p>
+
+<p><strong>How to judge it</strong> The color must be a deep, rich brown, with brilliant flashes of light. When you swirl the vinegar in a wine glass, it must coat the inside of the glass as would a dense, but flowing syrup, neither splotchy nor too thin. Its aroma should be intense, pleasantly penetrating. A sip of it will deliver balanced sweet and sour sensations, neither cloying nor too sharp, on a substantial and velvety body. It is never inexpensive, and it is too precious and rare ever to be put up in a container much larger than a perfume bottle. The label must carry, in full, the offcially established appellation, which reads: Aceto Balsamico Tradizionale di Modena. All other so- called balsamic vinegars are ordinary commercial wine vinegar flavored with sugar or caramel, bearing no resemblance to the traditional product.</p>
+
+<p><strong>How to use</strong> it True balsamic vinegar is used sparingly. In a salad it never replaces regular vinegar; it is suffcient to add a few drops of it to the basic dressing of olive oil and pure wine vinegar. In cooking, it should be put in at the very end of the process or close to it so that its aroma will carry through into the finished dish. Aceto balsamico is marvelous over cut, fresh strawberries when they are tossed with it just before serving. Regrettably, balsamic vinegar has become a cliché of what is sometimes described as “creative” cooking, in somewhat the same way that tomato and garlic were once clichés of spaghetti-house Italian cooking. It should not be used so often or so indiscriminately that its flavor loses the power to surprise and its emphatic accents become tiresome with repetition.</p>
+</div>
+      <div class="backlinks">
+
+<ul>
+<li><a href="italian-basics">Italian Basics</a></li>
+<li><a href="list-of-ingredients">List of Ingredients</a></li>
+</ul>
+
+</div>
+
+    </article>
+  </div>
+  
+  <!-- KaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+    integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+  <!-- The loading of KaTeX is deferred to speed up page rendering -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+    integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+    crossorigin="anonymous"></script>
+
+  <!-- To automatically render math in text elements, include the auto-render extension: -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+    integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+    crossorigin="anonymous"></script>
+
+  <!-- Parsing single dollar signs -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: "$$", right: "$$", display: true},
+          {left: "\\[", right: "\\]", display: true},
+      {left: "$", right: "$", display: false},
+      {left: "\\(", right: "\\)", display: false}
+        ]
+    });
+    });
+  </script>
+  
+  <!-- Syntax highlighting through highlight.js -->
+  <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+  <script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+  <script>
+    // Ignore highlighting of mermaid
+    hljs.configure({noHighlightRe: /^mermaid$/});
+    hljs.initHighlightingOnLoad();
+  </script>
+</body>
+
+</html>
