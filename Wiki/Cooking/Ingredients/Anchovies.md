@@ -1,0 +1,19 @@
+# Anchovies
+## Acciughe
+
+Of all the ingredients used in Italian cooking, none produces headier flavor than anchovies. It is an exceptionally adaptable flavor that accommodates itself to any role one wishes to assign it. Chopped anchovy dissolving into the cooking juices of a roast divests itself of its explicit identity while it contributes to the meat’s depth of taste. When brought to the foreground, as in a sauce for pasta or with melted mozzarella, anchovy’s stirring call takes absolute command of our taste buds. Anchovies are indispensable t o bagna caôda, the Piedmontese dip for raw vegetables, and to various forms of salsa verde, the piquant green sauces served with boiled meats or fish.
+
+**What anchovies to get and how to prepare them** The meatier anchovies are, the richer and rounder is their flavor. The meatiest anchovies are the ones kept under salt in large tins and sold individually, by weight. One-quarter pound is, for most purposes, an ample quantity to buy at one time. Prepare the fillets as follows:
+-  Rinse the whole anchovies under cold running water to remove as much as possible of the salt used to preserve them.
+-   Take one anchovy at a time, grasping it by the tail and, with the other hand, use a knife gently to scrape off all its skin. After skinning it, remove the dorsal fin along with the tiny bones attached to it.
+-    Push your thumbnail into the open end of the anchovy opposite the tail and run it against the bone, opening the anchovy flat all the way to the tail. With your hand, loosen and lift away the spine, and separate the fish into two boneless fillets. Brush your fingertips over both sides of the fillets to detect and remove any remaining bits of bone.
+-    Rinse under cold running water, then pat thoroughly dry with paper towels. Place the fillets in a shallow dish. When one layer of fillets covers the bottom of dish. When one layer of fillets covers the bottom of the dish, pour over it enough extra virgin olive oil to cover. As you add fillets to the dish, pour olive oil over each layer. Make sure the top layer is fully covered by oil.
+-    If you are not going to use them within 2 or 3 hours, cover the dish and refrigerate. If the dish lacks a lid of its own use plastic wrap. The anchovies will keep for 10 days to 2 weeks, but they taste best when consumed during the first week. Prepared in this manner, the fillets are powerfully good as an appetizer or even a snack, when spread on a thickly buttered slice of crusty bread.
+
+**Note** If you cannot find the salted whole anchovies described above and must buy prepared fillets, look for those packed in glass so you can choose the meatier ones. Do not be tempted by bargain- priced anchovies because the really good ones are never cheap, and the cheap ones are likely to be the really awful—mealy, salt- drenched—stuff that has given anchovies an undeserved bad name.
+
+If you happen to be using canned anchovies, don’t keep the leftover ones in the tin. Remove them, curl them into rolls, put them in a small jar or deep saucer, cover them with extra virgin olive oil, and refrigerate.
+
+Do not use anchovy paste from a tube, if you can help it. It is harsh and salty and has very little of the warm, attractive aroma that constitutes the principal reason for using anchovies.
+
+**Cooking with anchovies** On most occasions, anchovies are chopped fine so that they can more easily dissolve and merge their flavor with that of the other ingredients. Never put chopped anchovies into very hot oil because they will fry and harden instead of dissolving, and their flavor may turn bitter. Remove the pan from heat when adding the anchovies, putting it back on the burner only when, through stirring, the anchovies have begun to break down into a paste. If you can arrange to have another pot nearby with water boiling, place the pan with the anchovies over it, double- boiler fashion, and stir the anchovies until they dissolve.
